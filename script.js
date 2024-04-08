@@ -7,7 +7,7 @@ logo2.addEventListener("click", function() {
 function toggleterminal() {
     if (terminal.style.display === "none" || terminal.style.display === "") {
         terminal.style.display = "block";
-        addText(); // Call addText when the terminal is opened
+        addText(); 
     } else {
         terminal.style.display = "none";
     }
@@ -34,7 +34,6 @@ var commandLineInput = document.getElementById("command-line");
     const interval = setInterval(function() {
         if (index >= symbols.length) {
             clearInterval(interval);
-            // Display the card after the text has been completely replaced
             const cardDiv = document.querySelector('.card');
             cardDiv.style.display = 'block';
         } else {

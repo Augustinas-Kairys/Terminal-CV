@@ -7,7 +7,7 @@ body {
     background-repeat: no-repeat;
     font-family: 'Ubuntu';
     font-size: 15px;
-    min-height: 100vh; /* Ensure body takes at least the full height of the viewport */
+    min-height: 100vh;
 }
 
 .navbar {
@@ -118,7 +118,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     z-index: 9999;
     border-radius: 10px;
-    overflow: auto; /* Add this line to enable scrolling */
+    overflow: auto; 
 }
 
 .terminal::-webkit-scrollbar {
@@ -270,7 +270,7 @@ body {
     border-radius: 50%; 
     object-fit: cover; 
     display: block;
-    box-shadow: 0 3px 50px rgba(0, 0, 0, 0.8); /* Add a shadow */
+    box-shadow: 0 3px 50px rgba(0, 0, 0, 0.8); 
 }
 .profile {
     padding: 1em;
